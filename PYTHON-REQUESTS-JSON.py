@@ -1,0 +1,13 @@
+import requests #to import request library in our code
+import json#to import json library in our code
+
+#REQUESTS
+r = requests.get('https://www.google.com/')
+print(r)#prints the response of the server
+print(r.content)#returns the output by the server in string format
+print(r.content.decode('utf8'))#converts the string into utf8 format-->python represent the string in utf8 format
+
+#JSON
+print(type(r.content.decode('utf8')))#type function returns the datatype of the argument--->here it will be string
+print(json.loads(r.content.decode('utf8')))#this converts string into python dictionary
+print(type(json.loads(r.content.decode('utf8'))))#returns the datatype-->here it is dictionary
