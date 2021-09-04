@@ -20,10 +20,10 @@ At their core, all these libraries are HTTP requests wrappers. A great deal of t
 
 your-bot-token --->is got by creating a bot in telegram via botfather
 These are done with GET requests
-https://api.telegram.org/bot<your-bot-token>/getme --->to get details about bot
-https://api.telegram.org/bot<your-bot-token>/getUpdates--->to get response update
-https://api.telegram.org/bot<your-bot-token>/sendMessage?chat_id=<chat_id>&text="yourtext"--->to get response update
-https://api.telegram.org/bot<your-bot-token>/sendLocation?chat_id=<chat_id>&latitude="latitude"&longitude=""--->to get response update
+<li>https://api.telegram.org/bot<your-bot-token>/getme --->to get details about bot</li>
+<li>https://api.telegram.org/bot<your-bot-token>/getUpdates--->to get response update</li>
+<li>https://api.telegram.org/bot<your-bot-token>/sendMessage?chat_id=<chat_id>&text="yourtext"--->to get response update</li>
+<li>https://api.telegram.org/bot<your-bot-token>/sendLocation?chat_id=<chat_id>&latitude="latitude"&longitude=""--->to get response update</li>
 
-To send files and images we need to use POST requests
+To send files and images we need to use # POST requests
 requests.post(<url>,data=data_dictionary)
