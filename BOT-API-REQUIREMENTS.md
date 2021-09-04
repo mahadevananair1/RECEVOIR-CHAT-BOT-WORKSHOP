@@ -1,6 +1,6 @@
 <h3>The whole code works for python version higher than 3.5</h3>
-<i>You can download from their official website https://www.python.org/downloads/</i>
-<b>Installation guide is as follows https://www.youtube.com/watch?v=UvcQlPZ8ecA</b>
+<i>You can download from their official website https://www.python.org/downloads/</i><br>
+<b>Installation guide is as https://www.youtube.com/watch?v=UvcQlPZ8ecA</b>
 
 # Make sure you are adding path at the time of installation
 <li>to check the current installed version of python type this in command promt -->python --version</li>
