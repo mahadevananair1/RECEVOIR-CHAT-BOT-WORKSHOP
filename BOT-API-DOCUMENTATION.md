@@ -1,5 +1,5 @@
 Since telegram itself is open source
-Pleothora of libraries are available for telegram bots API
+Many libraries are available for telegram bots API
 # Python
 pyTelegramBotAPI (TeleBot)
 Telepot
